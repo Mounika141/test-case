@@ -1,0 +1,11 @@
+def count(str1, str2):
+    last = str2[len(str2)-1]
+    res = 0
+    for i in str1:
+        if i == last:
+            res +=1
+    return res
+
+str1 = input()
+str2 = input()
+print(count(str1, str2))
